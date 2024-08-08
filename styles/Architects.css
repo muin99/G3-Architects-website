@@ -5,3 +5,38 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* Shared items */
+    .flex{
+        display: flex;
+    }
+    .text-grey{
+        color: #424242;
+    }
+    .bg-light{
+        background-color: rgba(255, 144, 14, 0.1);
+    }
+/* Header */
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* nav-bar */
+.navbar{
+    justify-content: space-between;
+}
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    
+}
+.nav-link{
+    text-decoration: none;
+}
+
+
+
+/* body */
+
+/* footer */
