@@ -194,7 +194,17 @@ main > section{
 .sponsor-comp img{
     filter: grayscale(100%);
 }
-     
+/* footer */
+
+.copyright p{
+    text-align: center;
+    padding: 39px;
+    
+}
+.copyright{
+    width: 100%;
+    margin-bottom: 100px;
+}
 
 /* responsive */
 @media screen and (max-width: 576px) {
