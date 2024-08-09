@@ -22,14 +22,23 @@
         padding: 20px 25px;
         border: none;
         border-radius: 8px;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-weight: 600;
     }
     main{
         max-width: 1440px;
         margin: 0 auto;
     }
-
+    .orange{
+        color: rgba(255, 144, 14, 1);
+    }
+    .section-title{
+        font-size: 2.4rem;
+        font-weight: 700;
+    }
+    .light-grey{
+        color: #727272;
+    }
 /* Header */
 .navbar, .banner{
     max-width: 1440px;
@@ -62,6 +71,9 @@
 }
 
 /* Banner */
+main > section{
+    margin-top: 80px;
+}
 .banner-content{
     max-width: 850px;
     margin: 0 auto;
@@ -72,11 +84,53 @@
     font-weight: 700;
     font-size: 3.5rem;
 }
+/* team and feature */
+.team{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
 
-/*responsive */
+.feature{
+    margin-left: 80px;
+    max-width: 530px;
+}
+.feature-title{
+    max-width: 468px;
+
+}
+.feauture-disc{
+    margin-bottom: 32px;
+}
+#quick{
+    color: #727272;
+    font-weight: 500;
+}
+
+
+/* responsive */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links{
+    .navbar, .nav-links, .team{
         flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .feature{
+        margin-left: 20px;
+    }
+    
+}
+/* Medium device responsive */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .team{
+       flex-direction: column;
+    }
+    .feature{
+        margin: 50px auto;
     }
     
 }
