@@ -110,6 +110,27 @@ main > section{
     color: #727272;
     font-weight: 500;
 }
+/* Our feature */
+.feature-sect{
+    gap: 140px;
+}
+.feature-sect h3{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
 /* facts */
 #fact-disc{
     max-width: 542px;
